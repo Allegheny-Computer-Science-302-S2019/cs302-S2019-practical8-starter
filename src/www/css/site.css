@@ -1,0 +1,44 @@
+/* Copyright (c) 2019 by Heather (https://codepen.io/hbrok/pen/rrBRmj) */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(to top, #007991, #78ffd6);
+  background-color: #007991;
+  display: flex;
+  font-size: 1.25rem;
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+button {
+  margin-bottom: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  border: 2px solid #007991;
+  background-color: transparent;
+  color: #007991;
+  font-size: inherit;
+  transition: background-color 0.3s, color 0.3s;
+  &:hover {
+    background-color: #007991;
+    color: #fefefe;
+  }
+}
+
+.wrapper {
+  align-self: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  max-width: 37rem;
+  background-color: #fefefe;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+}
